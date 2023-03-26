@@ -37,7 +37,7 @@ export default function AutoComplete() {
         if(isMounted){
           setResults(response.data.result);
         }
-        console.log(response)
+        
       } catch (error) {
         
       }

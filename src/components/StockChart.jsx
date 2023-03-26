@@ -18,7 +18,7 @@ export const StockChart = ({chartData,symbol}) => {
     }
 
     const color = determineTimeFormate()[determineTimeFormate().length - 1].y - determineTimeFormate()[0].y > 0 ? "#26C281":"#ed3419";
-    console.log(day)
+    
     const options = {
         colors:[color],
         title:{

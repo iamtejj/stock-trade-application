@@ -1,5 +1,7 @@
 import axios from 'axios'
-const TOKEN = "cg2vfp1r01qtum0h6nj0cg2vfp1r01qtum0h6njg"
+
+const TOKEN = import.meta.env.VITE_REACT_API_TOKEN;
+
 export default axios.create({
     baseURL:"https://finnhub.io/api/v1",
     params:{
